@@ -2,102 +2,90 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Project: Travel webpage</title>
+        <title>Project: Event invite</title>
+        <style>
+            body {
+                background-color: #d3d3d3;
+                color: rgb(56, 92, 3);
+            }
+            h1 {
+                background-color: rgb(183, 175, 184);
+                color: black;
+            }
+            #details_head {
+                font-size: 19px;
+                font-weight: bold;
+            }
+            #details {
+                font-size: 18px;
+            }
+            #peter {
+                color:red;
+            }
+            #brad {
+                color:blue;
+            }
+            #celebrate {
+                position:absolute;
+                top: 85px;
+                left: 310px;
+                border: 2px solid purple;
+            }
+            #join {
+                width: 275px;
+                font-family: sans-serif;
+            }
+            #charities {
+                position: relative;
+                left: 25px;
+                font-family:sans-serif;
+            }
+            #rsvp {
+                position: relative;
+                left: 25px;
+                font-size: 25px;
+                
+                color: yellow;
+                background-color: red;
+                width: 70px;
+                font-weight: bold;
+                border: 4px solid red;
+                padding: 4px;
+            }
+            #venue {
+                width: 600px;
+                border: 2px solid ;
+            }
+        </style>
     </head>
     <body>
-    <style>
-      
-      
-    
-        #thingstodo {
-          background: rgb(192, 205, 207);
-          border: 1px dashed black;
-          padding: 5px 5px 10px 5px;
-          
-      }
-      #satpic {
-          width: 300px;
-          margin: 10px 100px;
-          border: 2px solid rgb(0, 0, 0);
-          border-top: 6px solid black;
-          border-bottom: 6px solid black;
-      }
-      
-      #tophead {
-         
-          width: 400px;
-          margin: 10px 100px;
-          font-weight: bold ;
-      }
-      #verydiff {
-          font-weight: bold;
-          font-style: italic;
-      }
-      #diamond_head {
-          height: 150px;
-          margin: 10px 0px 0px 50px;
-          border: 1.5px solid black;
-          
-      }
-      #kualoa {
-          border: 1.5px solid black;
-      }
-      
-      #honolulu {
-          margin: 0px 0px 50px 100px;
-          border: 2px solid rgb(68, 179, 4);
-      }
-       h2 {
-            color: black;
-            text-decoration: underline;
-        }
-        .item-list {
-            color: rgb(65, 12, 240);
-        }
-       
-    </style>
-       <div id="tophead"> <h1> Travel to Hawaii</h1> 
-       </div>
-        <img id="satpic" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Hawaje-NoRedLine.jpg">
-         <ul>
-       
         
-           <li class="item-list"> <a href="https://www.gohawaii.com/islands/oahu">Oahu</a></li>
-           <li class="item-list"> <a href="https://www.gohawaii.com/islands/kauai"> Kauai</a></li>
-            <li class="item-list"> <a href="https://www.gohawaii.com/islands/maui">Maui</a></li>
-            <li class="item-list"> <a href="https://www.gohawaii.com/islands/hawaii-big-island">Island of Hawaii</a></li>
+        <h1>You're invited!</h1>
+        <h2><span id="peter">Peter</span> and <span id="brad">Brad's</span> Wedding!</h2>
+        
+        <p id="details_head">The details:</p>
+        <ul id="details">
+            <li>Day: Saturday, June 25, 2020</li>
+            <li>Time: Six o'clock p.m.</li>
+            <li>Location: Ho'omaluhia Gardens</li>
+            <li>Attire: Aloha/Business Casual</li>
+            
         </ul>
-      <div id="thingstodo">
-      <h2>Things to Do</h2>
-        <p>
-            While visiting the Hawaiian islands don't just explore the hotel, get out and see the <em>real</em> Hawaii. <br>
-            
-            <ul>
-            <li>Try to local foods</li>
-           <li> Explore the beaches </li>
-          <li>  Interact with locals (<strong>be respectful!</strong>)</li>
-           <li> Enjoy and relax </li></ul>
-              </p>  </div>
-           
-            
-            <img  id="diamond_head" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Diamond_Head_Hawaii_-_panoramio.jpg/220px-Diamond_Head_Hawaii_-_panoramio.jpg">
-            <img id="kualoa" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Mokolii_Oahu.jpg/220px-Mokolii_Oahu.jpg" width="205">
-   <p>
-       The islands of Hawaii are unique as is its culture. While traveling, please be aware that the island culture may be <span id="verydiff"> very different </span>from the culture you used to. For example, while visiting someone's home you should always remove your shoes before entering. When invited to a gathering you should bring food not just for yourself, but enough to share with others.<br> 
-       You would do your research before traveling to a foreign country. Treat Hawaii the same and research before your trip. It will save you a lot of time and help you better interact with the locals.<br>
-       Note: as with any location Hawaii has it's less desirable areas. Be sure to ask your hotel staff before traveling to areas well outside of the tourist areas. Be safe and have fun!<br>
-       <br>
-       For more information visit the following sites:
-       <ul>
-       <li>  <a href="https://www.hvcb.org">Hawaii Visitors Bureau</a></li>
-       <li>
-           <a href="https://www.gohawaii.com">Go Hawaii</a></li>
-            <li>
-           <a href="https://www.hawaii-guide.com">Hawaii Guide</a></li>
-           
-       </ul>
-   </p>    
-   <img id="honolulu" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Waikiki%2C_Honolulu_Panorama_%2816191692896%29.jpg/1200px-Waikiki%2C_Honolulu_Panorama_%2816191692896%29.jpg" width="350">
-    </body>
+        <img id="celebrate" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Wedding-chantelois-gomez.jpg" width="250">
+        <br>
+   <p id="join">
+   Please join Peter and Brad as they celebrate the beginning of the lives together. The happy couple asks that in lieu of gifts, you consider donating to one of their favorite charties listed below.
+   </p>
+   <div id="charities"> <p>
+   <a href="thetrevorproject.org"> The Trevor Project</a><br>
+   <a href="https://www.glsen.org/"> GLSEN </a><br>
+   <a href="https://gillfoundation.org/"> Gill Foundation </a><br>
+    <a href="http://rainbowfamily808.com/island-resources.html">Rainbow Family </a>
+    
+    </p></div>
+    <p ID="rsvp">
+    RSVP
+    </P>
+    <img id="venue" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Hoomaluhia_Botanical_Garden_-_Entrance.jpg/1200px-Hoomaluhia_Botanical_Garden_-_Entrance.jpg">
+   </body>
 </html>
-
